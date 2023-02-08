@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>FrizzCap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="./Web_TailWind_HomeWork.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Nav Bar Section -->
+    <div class="fixed top-0 left-0 w-full z-10 ease-in duration-300 bg-gradient-to-b from-black to-transparent">
+        <div class="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+            <a class="font-bold text-4xl"
+                href="./Home_Page.html">FrizzCap</a>
+            <ul class="hidden sm:flex">
+                <li class="p-3 hover:text-gray-500"><a href="./Home_Page.html">Home</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="./About_Me.html">About Me</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="./Work_Page.html">Work</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="#">All My Shots</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="./Contact_Page.html">Contact</a></li>
+            </ul>
+            <div class="cursor-pointer block  sm:hidden z-10">
+                <span><ion-icon class="text-[35px] color-white"
+                        name="menu-outline"></ion-icon></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div
+        class="items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1516357231954-91487b459602?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80')]">
+        <div class="absolute top-0 right-0 left-0 bottom-0 bg-black/70 z-[2]">
+            <div class="p-5 text-white z-[2] mt-[20rem] justify-center text-center">
+                <h2 class="text-5xl font-bold">Some Of My Work</h2>
+                <p class="py-5 text-2xl">Here Are Some Of My Recently Contracted Work For Reference </p>
+                <button class="px-8 py-2 border border-r hover:bg-gray-400">Book Now !!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Travelling Photo -->
+    <div class="max-w-[1240px] mx-auto py-18 text-center">
+        <h1 class="text-2xl font-bold">Travelling Photo</h1>
+
+        <!-- Responsive Grid Layout -->
+        <div class="w-full h-full grid my-8 grid-cols-2 gap-4 md:grid-cols-5 lg:grid-cols-6">
+            <!-- This one cols-span-2 -->
+            <div class="w-full col-span-2 md:col-span-3 row-span-3">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not Found">
+            </div>
+            <!-- the other grid layout into two div normally -->
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1526648457459-22b2d73b0a2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1551291420-91160f3d4961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1538405255354-bf183b518024?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1603832721908-ebaca3da4830?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1603531837441-9069e5e8d5c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not found">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Food Photo -->
+    <div class="max-w-[1240px] mx-auto py-18 text-center">
+        <h1 class="text-2xl font-bold">Food Photo</h1>
+
+        <!-- Responsive Grid Layout -->
+        <div class="w-full h-full grid my-8 grid-cols-2 gap-4 md:grid-cols-5 lg:grid-cols-6">
+            <!-- This one cols-span-2 -->
+            <div class="w-full col-span-2 md:col-span-3 row-span-3">
+                <img src="https://images.unsplash.com/photo-1675670601305-3e04ec45430f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+                    alt="image not Found">
+            </div>
+            <!-- the other grid layout into two div normally -->
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1673412004745-260b01936ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1546904442-d07fd05f2f9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1599639668273-01b1f435b56d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                    alt="image not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1580650571791-ac06a41c3939?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1559329374-a792174e7a1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="iamge not found">
+            </div>
+
+            <div class="w-full md:row-span-1">
+                <img src="https://images.unsplash.com/photo-1546541866-706231a598d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="image not found">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./tailwind.config.js"></script>
+</body>
+
+</html>
