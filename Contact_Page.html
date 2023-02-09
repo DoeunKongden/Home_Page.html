@@ -38,8 +38,8 @@
                 <li class="p-3 hover:text-gray-500"><a href="./Home_Page.html">Home</a></li>
                 <li class="p-3 hover:text-gray-500"><a href="./About_Me.html">About Me</a></li>
                 <li class="p-3 hover:text-gray-500"><a href="./Work_Page.html">Work</a></li>
-                <li class="p-3 hover:text-gray-500"><a href="#">All My Shots</a></li>
-                <li class="p-3 hover:text-gray-500"><a href="#">Contact</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="./All_MyShot.html">All My Shots</a></li>
+                <li class="p-3 hover:text-gray-500"><a href="./Contact_Page.html">Contact</a></li>
             </ul>
             <div class="cursor-pointer block  sm:hidden z-10">
                 <span><ion-icon class="text-[35px] color-white"
@@ -53,13 +53,60 @@
         class="items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1510382684496-dda106e3f86a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')]">
         <div class="absolute top-0 right-0 left-0 bottom-0 bg-black/70 z-[2]">
             <div class="p-5 text-white z-[2] mt-[20rem] justify-center text-center">
-                <h2 class="text-5xl font-bold">FrizzCap PhotoGraphy</h2>
-                <p class="py-5 text-2xl">Capturing Moment in nature and keeping them alive in your heart</p>
-                <button class="px-8 py-2 border border-r hover:bg-gray-400 ">Book</button>
+                <h2 class="text-5xl font-bold">Send Us A Message Here</h2>
+                <p class="py-5 text-2xl">Submit A Form Below To Get More Detail. Let Work Together !!</p>
+                <button class="px-8 py-2 border border-r hover:bg-gray-400 "><a href="#formContact">Contact US
+                    </a></button>
             </div>
         </div>
     </div>
 
+    <!-- Form Section -->
+    <div id="formContact"
+        class="max-w-[1240px] m-auto p-4 h-screen">
+        <h1 class="text-center text-2xl font-bold p-4">Contact Us Here</h1>
+        <form class="max-w-[600px] m-auto">
+            <div class="grid grid-cols-2 gap-4">
+                <input class="border shadow-lg w-full my-4"
+                    type="text"
+                    placeholder="Phone Number">
+                <input type="text"
+                    class="border shadow-lg w-full my-4"
+                    placeholder="Email">
+            </div>
+            <input type="text"
+                class="w-full border shadow-lg my-4"
+                placeholder="Subject">
+            <textarea cols="40"
+                class="w-full my-4 border p-3 shadow-lg"
+                placeholder="Message us"
+                rows="10"></textarea>
+            <button class="w-full border shadow-lg p-4">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="bg-black">
+        <div class="max-w-lg bg-black px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center">
+            <h1
+                class="text-3xl font-extrabold leading-10 tracking-tight text-left text-white text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl">
+                <span class="inline md:block">Hire Us</span>
+                <span
+                    class=" mt-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-orange-400 to-lime-300 md:inline-block">
+                    We are
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-cyon-400 to-cyan-400">
+                        Open
+                    </span>
+                </span>
+            </h1>
+            <div class="mx-auto rounded-lg font-black mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg">
+                <button
+                    class="bg-tkb border text-sm text-white py-3 px-7 rounded-full hover:bg-gray-200 hover:text-black">
+                    Hire Us Now !!
+                </button>
+            </div>
+        </div>
+    </section>
 
     <script src="./tailwind.config.js"></script>
 </body>
